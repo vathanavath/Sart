@@ -1,0 +1,34 @@
+E7E6DD (primary color)
+162F65 (sencondary color)
+E8AF30 (Accent color)
+#e8ae305a
+<div class="r-btn">
+     Add to card
+    <i class="fa-solid fa-shopping-cart"></i>
+</div>
+
+<p>Sart–Beauty in Your Own Way!<br>At SART, we believe beauty has no limits!<br>We offer skincare and makeup for everyone,<br>so you can express yourself and embrace your unique glow.<br>Whether you love a natural look or bold glam,<br>we’ve got the perfect products for you.<br>Because true beauty is being yourself!
+
+            <br>Shop now and shine your way!</p>
+
+
+<nav class="bg-white shadow-md p-4 items-center">
+        <div class="container mx-auto flex justify-between items-center">
+            <ul class="hidden md:flex space-x-6" id="nav-list">
+                <li><a href="#" class="text-gray-600 hover:text-pink-500">Skin care</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-pink-500">Makeup</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-pink-500">Promotions</a></li>
+            </ul>
+            <a href="/HTML/index.html"><img class="logo" src="/IMG/Logo sArt Blue&Yellow.png" ></a>
+            
+            <ul class="hidden md:flex space-x-6" id="nav-list">
+                <li><a href="#" class="text-gray-600 hover:text-pink-500">Why Sart?</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-pink-500">Beauty Me</a></li>
+            </ul>
+            <div class="rating">
+                <a href="#"><i class="fa-solid fa-search"></i></a>
+                <a href="/HTML/profile.html"><i class="fa-solid fa-user"></i></a>
+            </div>
+            <button class="md:hidden text-gray-600" id="menu-toggle">☰</button>
+        </div>
+    </nav>

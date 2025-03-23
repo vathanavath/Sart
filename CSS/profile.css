@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    border: none;
+    font-family: "Jost", sans-serif;
+    text-decoration: none !important;
+}
+body{
+    background-color:#ffffff;
+    color: #000;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 26px 12%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background: transparent;
+    transition: all .5s ease;
+    background-color:#ffffff;
+}
+.logo{
+    width: 100px;
+}
+.nav-list{
+    display: flex;
+    margin: 0px;
+}
+ul li{
+    transition: transform.4s;
+}
+ul li:hover{
+    transform: scale(1.2);
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-right i{
+    font-size: 25px;
+    color: #000;
+    transition: all .4s ease;
+}
+.rating i{
+    padding: 16px;    
+}
+#menu-icon{
+    font-size: 32px;
+    z-index: 10001;
+    margin-left: 15px;
+    display: none;
+}
+.nav-list a{
+    margin: 0 20px ;
+    color: rgb(0, 0, 0);
+    transition: transform.4s;
+    text-decoration: none;
+}
+.nav-list a:hover{
+    margin: 0 20px ;
+    color: #E8AF30;
+    transition: transform.4s;
+    text-decoration: none;
+}
+ul li{
+    transition: transform.4s;
+}
+ul li:hover{
+    transform: scale(1.2);
+    margin-bottom: 0px;
+}
+.logo{
+    transition: transform.4s;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.rating i{
+    transition: transform.4s;
+    color: #162F65;
+}
+.rating i:hover{
+    transform: scale(1.2);
+    color: #E8AF30;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-right i{
+    font-size: 25px;
+    color: #000;
+    margin: 0 10px;
+    transition: all .4s ease;
+    text-decoration: none;
+}
+#menu-icon{
+    font-size: 32px;
+    z-index: 10001;
+    margin-left: 15px;
+    display: none;
+}
+.nav-list a{
+    margin: 0 20px ;
+    color: rgb(0, 0, 0);
+    transition: transform.4s;
+    text-decoration: none;
+}
+.nav-list a:hover{
+    margin: 0 20px ;
+    color: #E8AF30;
+    transition: transform.4s;
+    text-decoration: none;
+}
+ul li{
+    transition: transform.4s;
+}
+ul li:hover{
+    transform: scale(1.2);
+    margin-bottom: 0px;
+}
+.logo{
+    transition: transform.4s;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.rating i{
+    transition: transform.4s;
+}
+.rating i:hover{
+    transform: scale(1.2);
+    color: #E8AF30;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-right i{
+    font-size: 25px;
+    color: #000;
+    margin: 0 10px;
+    transition: all .4s ease;
+    text-decoration: none;
+}
+.nav-list{
+    display: flex;
+    margin-bottom: 0px;
+}
+.nav-list a{
+    margin: 0 25px ;
+    color: #162F65;
+    transition: transform.4s;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-right i{
+    font-size: 25px;
+    color: #000;
+    margin: 0 10px;
+    transition: all .4s ease;
+}
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #333;
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 160px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px 15px;
+}
+
+.dropdown-menu a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1; 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+#menu-icon{
+    font-size: 32px;
+    z-index: 10001;
+    margin-left: 15px;
+    display: none;
+    text-decoration: none;
+}
+header.sticky{
+    background-color: #ffffff;
+    padding:  25px 12%;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+section{
+    padding: 70px 12% 80px;
+}
+.Profile{
+    padding: 74px 0% 80px;
+}
+.Profile-text {
+    padding: 30px 0px;
+    text-align: center;
+    margin: 19px 0px;
+    color: #162F65;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.text-more p{
+    color: #676464;
+}
+.Profile{
+    margin-top: 100px;
+}
+.Name{
+    color:  #162F65;
+    border-radius: 5px;
+}
+.Name{
+    color:  #162F65;
+    border-radius: 5px;
+}
+.Mypro{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    color:#162F65;
+}
+.btn-btn {
+    display: flex;
+    justify-content: end; 
+    border-radius: 10px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: #162F65;
+}
+.btn-btn1{
+    margin: 0px 5px 0px 2px;
+}
+.btn-btn button:hover{
+    background-color: #E8AF30;
+    color:#fff;
+}
